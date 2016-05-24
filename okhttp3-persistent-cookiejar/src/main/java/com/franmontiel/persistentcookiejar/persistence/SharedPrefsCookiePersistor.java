@@ -28,7 +28,7 @@ import okhttp3.Cookie;
 
 public class SharedPrefsCookiePersistor implements CookiePersistor {
 
-    private SharedPreferences sharedPreferences;
+    protected SharedPreferences sharedPreferences;
 
     public SharedPrefsCookiePersistor(Context context) {
         final String SHARED_PREFERENCES_NAME = "CookiePersistence";
